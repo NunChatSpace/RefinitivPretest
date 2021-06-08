@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="page.css">
+    <script src="page.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class='left'>
+            <input type="number" id="value" name="value" oninput="onInputText(this.value)"><br>
+        </div>
+        <div class='middle'>
+            <select name="typeSelection" id="typeSelection" onchange="onSelectionChanged()">
+                <option value="isPrime">isPrime</option>
+                <option value="isFibonaci">isFibonaci</option>
+              </select>
+        </div>
+        <div class='right' id='right'>
+            right
+        </div>
+        
+    </div>
+
+</body>
+
+</html>
